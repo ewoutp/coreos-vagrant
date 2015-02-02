@@ -28,3 +28,7 @@ coreos:
 
         [Install]
         WantedBy=sockets.target
+
+#ssh_authorized_keys:
+  #- <your ssh public key>
+  #- <output of ssh-keygen -y -f ~/.vagrant.d/insecure_private_key>
